@@ -1,0 +1,72 @@
+.process-section {
+  background-image: linear-gradient(
+    to right,
+    #1b2a49,
+    #16233a,
+    #0f1d2a,
+    #0a1720
+  );
+  position: relative;
+  height: 300vh;
+}
+.services-section-header {
+  padding-top: 4.8rem;
+  color: #f0f0f0;
+  font-weight: 700;
+  text-align: start;
+  /* margin-bottom: 1.5rem; */
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.process-container {
+  height: 100vh;
+  position: sticky;
+  overflow: hidden;
+  padding-left: 6.8rem;
+
+  top: 0;
+}
+.process-items-container-ultra {
+  margin-top: 10.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.process-items-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.process-item {
+  background: linear-gradient(180deg, #00a9e0, #004c82);
+  padding: 3rem 5rem;
+  border-radius: 1rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.process-item-header {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+.process-item-description {
+  color: #f0f0f0;
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+.process-icon {
+  color: #f0f0f0;
+  font-size: 6.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.outlined-font {
+  color: transparent;
+  -webkit-text-stroke: 1px #f0f0f0;
+}

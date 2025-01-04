@@ -1,0 +1,9 @@
+.home-page {
+  background-image: linear-gradient(
+    to right,
+    #1b2a49,
+    #16233a,
+    #0f1d2a,
+    #0a1720
+  );
+}

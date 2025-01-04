@@ -1,0 +1,81 @@
+.hero-section {
+  padding-bottom: 6.4rem;
+}
+.hero-container {
+  width: 76%;
+  margin: 4.6rem auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+}
+
+.secondary-button {
+  color: #00a9e0;
+  font-weight: 600;
+}
+
+.call-out {
+  color: #f0f0f0;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.hero-header {
+  color: #f0f0f0;
+  font-size: 3.6vw;
+  word-wrap: break-word; /* Ensures the text wraps appropriately */
+  white-space: normal;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 2rem;
+}
+
+.hero-subheader {
+  font-size: 2.2rem;
+  color: #f0f0f0;
+  font-weight: 400;
+
+  margin-bottom: 4.8rem;
+}
+
+.secondary-button {
+  position: relative;
+}
+
+.star {
+  color: #00a9e0;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.testimonials-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  gap: 2.4rem;
+}
+
+.testimonial {
+  width: 20rem;
+}
+
+.testimonial-text {
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-top: 0rem;
+}

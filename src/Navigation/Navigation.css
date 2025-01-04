@@ -1,0 +1,38 @@
+.logo {
+  width: 11rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navigation li a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #00a9e0;
+}
+
+.underline-animations {
+  position: relative;
+}
+
+.underline-animations::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px; /* Position it below the button text */
+  width: 100%;
+  height: 3px; /* Thickness of the underline */
+  background-color: #00a9e0; /* Underline color */
+  transform: translateX(-50%) scaleX(0);
+  transition: transform 0.3s ease-in-out; /* Animation effect */
+  transform-origin: center; /* Animation starts from right */
+}
+
+.underline-animations:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
