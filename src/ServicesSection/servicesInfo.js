@@ -12,6 +12,8 @@ export const servicesInfo = {
       "Conversion Optimized",
     ],
     img: "businessWebsite.png",
+    altText:
+      "Image representing a professional business website with modern design elements like interactive features and mobile-friendly layout.",
   },
   ChatBotIntegration: {
     name: "ChatBot Integration",
@@ -26,6 +28,8 @@ export const servicesInfo = {
       "Easy Access",
     ],
     img: "chatBot.png",
+    altText:
+      "Image illustrating a chatbot interface on a website, with a focus on automation and customer interaction.",
   },
   WebsiteCopyWriting: {
     name: "Website CopyWriting",
@@ -40,6 +44,8 @@ export const servicesInfo = {
       "Professional Tone and Style",
     ],
     img: "copyWriting.png",
+    altText:
+      "Image symbolizing website copywriting, featuring text and content creation that aligns with brand messaging and engages website visitors.",
   },
   SEOOptimization: {
     name: "SEO Optimization",
@@ -54,6 +60,8 @@ export const servicesInfo = {
       "Regular Performance Analysis",
     ],
     img: "SEO.png",
+    altText:
+      "Image showcasing SEO optimization techniques, including keyword research, on-page SEO, and performance analytics to improve search rankings.",
   },
   WebsiteAnalytics: {
     name: "Website Analytics",
@@ -68,5 +76,7 @@ export const servicesInfo = {
       "Performance Reporting",
     ],
     img: "analytics.png",
+    altText:
+      "Image representing website analytics tools, displaying graphs and data insights to track visitor behavior and performance metrics.",
   },
 };

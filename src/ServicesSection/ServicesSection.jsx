@@ -73,7 +73,7 @@ export default function ServicesSection() {
           <div className="service-image-container">
             <img
               src={servicesInfo[active].img}
-              alt=""
+              alt={servicesInfo[active].altText}
               className="services-img"
             />
           </div>
