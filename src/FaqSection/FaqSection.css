@@ -50,11 +50,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
+  gap: 3rem;
 }
 
 .question-text {
   font-size: 1.7rem;
   font-weight: 700;
+  text-align: start;
   color: #ffffff;
 }
 
@@ -83,4 +85,23 @@
   font-weight: 900;
   text-align: left;
   cursor: pointer;
+}
+
+@media (max-width: 937px) {
+  .faq-subheader {
+    font-size: 6vw;
+  }
+  .question-answer-container {
+    width: 95%;
+  }
+
+  .faq-container {
+    margin-top: 4.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .question-text {
+    font-size: 1.4rem;
+  }
 }

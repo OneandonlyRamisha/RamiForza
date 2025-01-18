@@ -15,8 +15,9 @@ export default function Herosection() {
         </h3>
 
         <div className="hero-button-container">
-          <Cta size={2.6} />
-          <Secondbutton text="See Our Work" size={2.6} />
+          <Cta />
+
+          <Secondbutton text="See Our Work" />
         </div>
       </div>
       <div className="testimonials-container">
@@ -28,13 +29,9 @@ export default function Herosection() {
   );
 }
 
-function Secondbutton({ text, size }) {
+function Secondbutton({ text }) {
   return (
-    <a
-      className="secondary-button underline-animations"
-      href="#"
-      style={{ fontSize: `${size}rem` }}
-    >
+    <a className="secondary-button underline-animations" href="#">
       {text}
     </a>
   );

@@ -1,6 +1,9 @@
 .logo {
   width: 11rem;
 }
+header {
+  position: relative;
+}
 
 .navigation {
   display: flex;
@@ -35,4 +38,10 @@
 
 .underline-animations:hover::after {
   transform: translateX(-50%) scaleX(1);
+}
+
+@media (max-width: 744px) {
+  header {
+    display: none;
+  }
 }

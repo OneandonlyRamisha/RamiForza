@@ -209,3 +209,86 @@
 .services-items-list-item:hover {
   color: #fff; /* Optional: changes text color for better contrast */
 }
+@media (max-width: 1350px) {
+  .services-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width: 1110px) {
+  .service-explanation {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 3.6rem;
+  }
+
+  .service-select {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 785px) {
+  .service-select {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .services-subheader {
+    font-size: 4.5vw;
+    text-align: center;
+  }
+
+  .services-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .service-select {
+    grid-template-columns: auto auto;
+  }
+
+  .service-select-item:last-child {
+    grid-column: 1/3;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .services-items-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .services-items-header {
+    font-size: 7.4vw;
+  }
+}
+
+@media (max-width: 430px) {
+  .services-section {
+    padding: 0.8rem;
+  }
+  .service-select-item {
+    gap: 1.7rem;
+
+    padding: 2rem;
+    width: 100%;
+    height: 15rem;
+    border-radius: 0.2rem;
+    position: relative; /* Needed for pseudo-element positioning */
+    overflow: hidden; /* Ensures pseudo-element stays within bounds */
+    z-index: 1;
+    transition: all 0.5s; /* Smooth transition for other properties */
+  }
+}
+
+@media (max-width: 350px) {
+  .service-select-item-header {
+    font-size: 1.6rem;
+  }
+}

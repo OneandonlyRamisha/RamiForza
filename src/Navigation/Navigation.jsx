@@ -5,13 +5,13 @@ export default function Navigation() {
     <header>
       <nav>
         <ul className="navigation">
-          <Navitems item="About Us" />
-          <Navitems item="Process" />
+          {/* <Navitems item="About Us" /> */}
+          <Navitems item="Process" itemLink={"#process"} />
           <Navitems item="Services" itemLink={"#Services"} />
-          <a href="#">
+          <a>
             <img className="logo" src="logo.png" alt="RamiForza's Brand Logo" />
           </a>
-          <Navitems item="See Our Work" />
+          {/* <Navitems item="See Our Work" /> */}
           <Navitems item="Blog" />
           <Navitems item="FAQ" itemLink={"#faqId"} />
         </ul>
@@ -19,7 +19,6 @@ export default function Navigation() {
     </header>
   );
 }
-
 function Navitems({ item, itemLink }) {
   return (
     <li>

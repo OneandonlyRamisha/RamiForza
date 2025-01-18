@@ -21,6 +21,7 @@
 .secondary-button {
   color: #00a9e0;
   font-weight: 600;
+  font-size: 2.6rem;
 }
 
 .call-out {
@@ -78,4 +79,98 @@
   font-size: 1.4rem;
   font-style: italic;
   margin-top: 0rem;
+}
+@media (max-width: 1070px) {
+  .hero-container {
+    width: 96%;
+  }
+  .hero-header {
+    font-size: 5vw;
+  }
+  .hero-subheader {
+    font-size: 1.8vw;
+  }
+}
+
+@media (max-width: 870px) {
+  .cta,
+  .secondary-button {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .hero-header {
+    font-size: 6vw;
+  }
+  .testimonials-container {
+    margin-top: 6.4rem;
+  }
+  .testimonial-text {
+    font-size: 1.2rem;
+  }
+  .testimonial {
+    width: 17rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta,
+  .secondary-button {
+    font-size: 1.8rem;
+  }
+  .testimonial:nth-child(2) {
+    display: none;
+  }
+  .hero-subheader {
+    font-size: 2.4vw;
+  }
+
+  .testimonial-text {
+    font-size: 1.4rem;
+  }
+  .testimonial {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-container {
+    width: 99%;
+  }
+  .hero-header {
+    font-size: 8.8vw;
+  }
+}
+
+@media (max-width: 433px) {
+  .call-out {
+    font-size: 3.2vw;
+  }
+  .hero-subheader {
+    display: none;
+  }
+  .testimonial:last-child,
+  .testimonial:first-child {
+    display: none;
+  }
+
+  .testimonial:nth-child(2) {
+    display: block;
+  }
+
+  .hero-header {
+    line-height: 1.5;
+  }
+
+  .hero-button-container {
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 2.4rem;
+  }
+
+  .cta,
+  .secondary-button {
+    font-size: 2rem;
+  }
 }
